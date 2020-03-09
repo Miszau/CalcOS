@@ -13,9 +13,10 @@ body{
 	grid-column : 1 / span 5;
 	grid-row : 1;
 	
-	background-color : yellow;
+	background-color : #40fff0;
+	color       : #003333;
 	padding-top : 50px;
-	text-align : center;
+	text-align  : center;
 	font-size   : 50px;
 	font-family : Arial;
 	border      : 5px solid white;
@@ -24,13 +25,15 @@ body{
 
 #back:hover{
 	background-color : white;
-	border      : 5px solid black;
+	border : 5px solid black;
 }
 
 #advert1{
 	display : grid;
 	grid-column : span 1 / 2;
 	grid-row : 2 / 5;
+
+	border : 5px solid white;
 }
 
 #game{
@@ -39,8 +42,10 @@ body{
 	grid-row : 2 / 5;
 }
 
-#advert1{
+#advert2{
 	display : grid;
 	grid-column : span 1 / 6;
 	grid-row : 2 / 5;
+	
+	border : 5px solid white;
 }

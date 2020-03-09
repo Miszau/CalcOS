@@ -17,7 +17,8 @@ body{
 	grid-column-end   : 3;
 	grid-row-start    : 1;
 	/*general styles*/
-	background-color : #BBBBBB;
+	background-color : #40fff0;
+	color       : #003333;
 	font-family : Arial;
 	font-size   : 70px;
 	text-align  : center;
@@ -32,7 +33,8 @@ body{
 	grid-column : 1 / 2;
 	grid-row : 2 / 4;
 	/*general styles*/
-	background-color : #AAAAAA;
+	background-color : #00f0b0;
+	color       : #003333;
 	font-size   : 50px;
 	font-family : Arial;
 	text-align  : center;
@@ -47,7 +49,8 @@ body{
 	grid-column : 2 / 3;
 	grid-row : 2 / 4;
 	/*general styles*/
-	background-color : #AAAAAA;
+	background-color : #00f0b0;
+	color       : #003333;
 	font-size   : 50px;
 	font-family : Arial;
 	text-align  : center;
@@ -58,5 +61,6 @@ body{
 
 #option1:hover, #option2:hover{
 	border : 4px solid black;
-	background-color : yellow;
+	background-color : #003333;
+	color  : #00f0b0;
 }
