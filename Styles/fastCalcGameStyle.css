@@ -25,10 +25,11 @@
 	
 	background-color : #40fff0;
 	color            : #003333;
-	font-size   : 200px;
+	font-size   : 50px;
 	text-align  : center;
 	padding-top : 20px;
 }
+
 
 #answers{
 	/*position in the "game" grid */
@@ -54,4 +55,8 @@
 	background-color : #40fff0;
 	color            : #006666;
 	border : 5px solid black;	
+}
+
+#invisibleAnswer {
+	visibility: hidden;
 }
