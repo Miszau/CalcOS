@@ -16,7 +16,10 @@ body{
 
 div{
 	display : grid;
-	border-radius : 200px;
+	border-end-end-radius     : 400px;
+	border-start-start-radius : 400px;
+	border-start-end-radius   : 100px;
+	border-end-start-radius   : 100px;
 	font-family   : Arial;
 	text-align    : center;
 }
@@ -67,6 +70,6 @@ div{
 
 #option1:hover, #option2:hover{
 	border : 4px solid black;
-	background-color : #006666;
+	background-color : #0060b0;
 	color  : #40fff0;
 }
