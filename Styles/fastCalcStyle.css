@@ -6,6 +6,11 @@ body{
 	display : grid;
 	grid-template-columns : repeat(7, 1fr);
 	grid-template-rows : repeat(4, 1fr);
+
+	user-select: none; /*Chrome and Opera*/
+   -webkit-user-select: none; /* Safari */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 #back{
