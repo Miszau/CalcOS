@@ -6,30 +6,6 @@
 	column-gap : 30px;
 }
 
-#gameRules{
-	display     : grid;
-	grid-column : 1 / span 2; 
-	grid-row    : 1 / span 3;
-	
-	background-color : #006666;
-	color            : #40fff0;
-	font-size   : 40px;
-	text-align  : center;
-	padding-top : 20px; 
-}
-
-#score{
-	display     : grid;
-	grid-column : 3 / span 2; 
-	grid-row    : 1 / span 3;
-	
-	background-color : #006666;
-	color            : #40fff0;
-	font-size   : 40px;
-	text-align  : center;
-	padding-top : 20px; 
-}
-
 #problemDisplay{
 	display     : grid;
 	grid-row    : 3 / span 4;

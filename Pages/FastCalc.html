@@ -12,16 +12,26 @@
 	
 		<div id = "back" onclick = "backToMain()">Powrót do Głównej Strony</div>
 		
-		<div id = "advert1"> tu będą reklamy</div>
-		
-		<div id = "game">
-		
-		<div id = "gameRules">Ustawienia 
-			<!-- możliwe opcje wymienione wyżej -->
+		<div id = "gameRules"> Wybór działań
+
+			<form id = "rulesForm">
+
+				<input type = "checkbox" id = "adding" checked>
+				<label for = "adding">Dodawanie</label><br>
+
+				<input type = "checkbox" id = "substracting" checked>
+				<label for = "substracting">Odejmowanie</label><br>
+
+				<input type = "checkbox" id = "multiplying" checked>
+				<label for = "multiplying">Mnożenie</label><br>
+
+				<input type = "checkbox" id = "division" checked>
+				<label for = "division">Dzielenie</label><br>
+			</form>
+			
 		</div>
 
-		<div id = "score"> Punkty : <br>0
-		</div>
+		<div id = "game">
 		
 		<div id = "problemDisplay">
 
@@ -43,8 +53,9 @@
 			<div id = "invisibleAnswer">0</div>
 		
 		</div>
-		
-		<div id = "advert2"> tu będą reklamy </div>
+
+		<div id = "score"> Punkty : <br>0
+		</div>
 		
 	</body>
 
