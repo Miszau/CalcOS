@@ -17,7 +17,7 @@ function FastCalc(){
 		suma = a - b;
 	}
 	if( znak == 2) {
-		document.getElementById('operation').innerHTML = '*';
+		document.getElementById('operation').innerHTML = '&#215';
 		suma = a * b;
 	}
 	if( znak == 3) {

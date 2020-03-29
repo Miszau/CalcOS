@@ -2,6 +2,7 @@ body{
 	width  : 100%;
 	height : 100%;
 	margin : 0;
+	background-color : #0090ff;
 	
 	display : grid;
 	grid-template-columns : repeat(7, 1fr);
@@ -31,13 +32,13 @@ div{
 	text-align    : center;
 	font-size     : 50px;
 	font-family   : Arial;
-	border        : 5px solid white;
-	margin-top    : 20px;
+	border        : 5px solid black;
+	margin        : 20px;
 }
 
 #back:hover{
 	background-color : #40aaff;
-	border : 5px solid black;
+	border : 5px solid white;
 }
 
 #gameRules{
@@ -45,28 +46,17 @@ div{
 	grid-column : 1 / span 1; 
 	grid-row    : 2 / span 3;
 	
-	background-color : #006666;
+	background-color : #40aaff;
 	color            : #40fff0;
+	border           : 5px solid black;
 	font-size        : 25px;
 	text-align       : center;
 	padding-top      : 100px; 
-}
-
-#rulesForm{
-	width  : 90%;
-	margin : 0 auto;
-	border : 2px solid white;
-	height : 70%;
+	margin           : 10px;
 }
 
 #rulesForm input[type=checkbox]{
-	width  : 50px;
-	height : 50px;
-	background-color: blue;
-}
-
-#gameRules label{
-	text-align : left;
+	float  : left;
 }
 
 #score{
@@ -74,11 +64,13 @@ div{
 	grid-column : 7 / span 1; 
 	grid-row    : 2 / span 3;
 	
-	background-color : #006666;
+	background-color : #40aaff;
 	color            : #40fff0;
-	font-size   : 40px;
-	text-align  : center;
-	padding-top : 100px; 
+	border           : 5px solid black;
+	font-size        : 40px;
+	text-align       : center;
+	padding-top      : 200px; 
+	margin           : 10px;
 }
 
 #game{
