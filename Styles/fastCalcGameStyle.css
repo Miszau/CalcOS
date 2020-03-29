@@ -39,13 +39,12 @@
 	font-size   : 70px;
 	text-align  : center;
 	padding-top : 20px;
-	border : 5px solid white;
+	border : 5px solid black;
 }
 
 #answers div:hover{
 	background-color : #40aaff;
-	color            : #006666;
-	border : 5px solid black;	
+	border : 5px solid white;	
 }
 
 #invisibleAnswer {

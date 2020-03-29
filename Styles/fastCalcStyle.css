@@ -55,7 +55,7 @@ div{
 	margin           : 10px;
 }
 
-#rulesForm input[type=checkbox]{
+#gameRules input[type=checkbox]{
 	float  : left;
 }
 
