@@ -1,7 +1,6 @@
 function check(a){
-
-	var suma = parseInt(document.getElementById('invisibleAnswer').innerHTML);
-	var score = parseInt(document.getElementById('score').innerHTML);
+	var suma = window.value;
+	var score = parseInt(document.getElementById('varScore').innerHTML);
 //sprawdzanie odpowiedzi i dawanie punktów
 		if (a == 1){
 		if ( document.getElementById('answer_1').innerHTML == suma){
@@ -38,7 +37,7 @@ function check(a){
 			score = score - 1;
 		}
 	}
-	document.getElementById('score').innerHTML = score;
+	document.getElementById('varScore').innerHTML = score;
 	
 	FastCalc();
 }
